@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Clippy!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section>
+    <div class='top'>
+      <!-- <h1>Paperclips: </h1> -->
+      <h1 id="paperclips"></h1>
+    </div>
+    <button onclick="makeClip()">Make Paperclip</button>
+  </section>
+  <section>
+    <h2>Business</h2>
+    <hr>
+    <div class="box">
+      <p id="funds"></p>
+    </div>
+    <div class="box">
+      <p>Unsold Inventory: </p>
+    </div>
+    <div class="box">
+      <button onclick="lowerPrice()">lower</button>
+      <button onclick="raisePrice()">raise</button>
+      <p id="clip-price"> </p>
+    </div>
+    <div class="box">
+      <p>Public Demand: </p>
+      <p>142%</p>
+    </div>
+    <div class="box">
+      <button>Marketing</button>
+      <p>Level: 1</p>
+    </div>
+    <div class="box">
+      <p>Cost: </p>
+      <p>$ 100.00</p>
+    </div>
+  </section>
+  <section>
+    <h2>Manufacturing</h2><hr>
+    <div class="box">
+      <p>Clips per Second: </p>
+    </div>
+    <div class="box">
+      <button onclick="addWire()">Wire</button>
+      <p id="qty-wire"></p>
+      <!-- <p>_Inches</p> -->
+    </div>
+    <div class="box">
+      <!-- <p>Cost: </p> -->
+      <p id="wire-cost"></p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
